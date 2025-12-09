@@ -1,0 +1,79 @@
+body{
+    border: 1px solid black;
+    max-width: 60rem;
+    margin: 1rem auto;
+}
+
+header {
+    padding: .5rem 2rem;
+    border-bottom: 1px solid ;
+}
+header h1{
+    text-align: center;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 3rem;
+    margin: .5rem;
+}
+header p{
+    text-align: center;
+    margin: .5;
+}
+p {
+    padding: 0 2rem;
+}
+article, aside, footer {
+    padding: 0 2rem;
+}
+footer {
+    border-top: 1px solid;
+    text-align: center;
+}
+nav {
+    border-bottom: 1px solid;
+    background-color: brown;
+}
+/* breyti einginleika a í nav en ekki annarstaðdar */
+
+nav a:link {
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    color: white;
+    text-decoration: underline none;
+}
+nav a:visited {
+    color: white;
+}
+nav a:hover, nav a:active {
+    background-color: red;
+    color: yellow;
+    text-decoration: underline;
+}
+footer a:link {
+    color: green;
+}
+footer a:visited {
+    color: red;
+}
+footer a:hover, footer a:active {
+    background-color: red;
+    color: yellow;
+    text-decoration: underline;
+}
+blockquote {
+    width: 80%;
+    margin: auto;
+    border: 1px solid;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+footer p {
+    color: blue;
+    text-decoration: underline;
+}
+.separator {
+    margin: 0 10px;
+    color: gray;
+}
