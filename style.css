@@ -1,0 +1,23 @@
+body {
+    max-width: 80rem; /* 1280px ~ 2x */
+    border: 1px solid red;
+    margin: 1em auto; /* top+bottom og left+right */
+    padding: 1em;
+    color: white;
+    background-color: black;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+ h3, h4 {
+    color: bisque;
+}
+a:visited {
+    color:skyblue
+}
+a:active, a:hover, h1, .red {
+    color:red;
+}
+ h2, .azul{
+    color: blue;
+}
